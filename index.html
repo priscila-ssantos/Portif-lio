@@ -1,0 +1,213 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Priscila Santos — Desenvolvedor Full Stack</title>
+  <meta name="description"
+    content="Portfólio de Desenvolvedor Full Stack — HTML, CSS, JavaScript, React, Node. Performance, Acessibilidade e UI moderna.">
+  <!-- Tipografia moderna -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Public+Sans:wght@300&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- FAVICON (substituir em /assets/img) -->
+  <link rel="icon" href="./assets/img/favicon.ico">
+  <!-- CSS principal -->
+   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+<body>
+
+  <!-- Cabeçalho fixo (navbar) -->
+
+  <div class="particulas"></div>
+  <header class="site-header" role="banner">
+
+    <nav class="nav-container">
+      <a class="brand" href="#home">Priscila Santos</a>
+
+      <ul id="main-nav" class="nav-list">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#stacks">Stacks</a></li>
+        <li><a href="#certificados">Certificados</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- HERO -->
+  <main id="home">
+    <section class="hero container" aria-label="Apresentação">
+      <div class="hero-content">
+        <aside class="hero-photo" aria-hidden="false">
+          <!-- substituir src pela foto enviada em /assets/img/profile.jpg -->
+          <img src="./Portif-lio/assets/img/IMG_1166 - Copia.jpg" alt="Foto com Nome Sobrenome" class="profile-photo">
+        </aside>
+        <h1 class="hero-title">Priscila Santos</h1>
+        <p class="hero-role">Desenvolvedora Junior</p>
+        <div class="sobre-caixa">
+          <p class="hero-bio">Especialista em HTML5, CSS3 e JavaScript — foco em performance, acessibilidade e
+            interfaces modernas. Crio experiências web que combinam boa arquitetura e design refinado.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Ver Projetos</a>
+          <a class="btn outline" href="/assets/files/cv.pdf" download>Baixar CV</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="about" class="about container" aria-labelledby="about-title">
+      <h2 id="about-title">Sobre Mim</h2>
+      <div class="caixa-title">
+        <p>Sou desenvolvedor Junior com de 1 ano de experiência em construção de interfaces ricas e
+          Front-end resilientes. Minha missão é transformar requisitos em produtos confiáveis, performáticos e
+          acessíveis. Busco oportunidades para aplicar boas práticas, automatizar processos e liderar entregas de
+          alto impacto.</p>
+      </div>
+    </section>
+
+
+    <section id="stacks">
+  <h2>Stacks</h2>
+
+  <div class="stack-icons">
+    <div class="stack-item">
+      <i class="fa-brands fa-html5"></i>
+      <span>HTML</span>
+    </div>
+
+    <div class="stack-item">
+      <i class="fa-brands fa-css3-alt"></i>
+      <span>CSS</span>
+    </div>
+
+    <div class="stack-item">
+      <i class="fa-brands fa-js"></i>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="stack-item">
+      <i class="fa-brands fa-react"></i>
+      <span>React</span>
+    </div>
+  </div>
+</section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="projetos-section">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects-caixa">
+
+          <!-- CARD 1 -->
+          <div class="project-card">
+            <img src="./Portif-lio/assets/projetos/timer.png" alt="Timer" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Timer Digital</h3>
+              <p class="project-desc">Contador regressivo com UI moderna, animação suave e responsividade.</p>
+              <span class="project-tech">HTML • CSS • JS</span>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn">Demo</a>
+                <a href="#" target="_blank" class="btn-outline">Repositório</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="project-card">
+            <img src="./Portif-lio/assets/projetos/recipes.png" alt="Receitas" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Buscador de Receitas</h3>
+              <p class="project-desc">Busca receitas online utilizando API e filtragem dinâmica.</p>
+              <span class="project-tech">HTML • CSS • JS • API</span>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn">Demo</a>
+                <a href="#" target="_blank" class="btn-outline">Repositório</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="project-card">
+            <img src="./Portif-lio/assets/projetos/coffee.png" alt="Coffee" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Landing Coffee</h3>
+              <p class="project-desc">Página institucional elegante com animação de scroll.</p>
+              <span class="project-tech">HTML • CSS</span>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn">Demo</a>
+                <a href="#" target="_blank" class="btn-outline">Repositório</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="project-card">
+            <img src="./Portif-lio/assets/projetos/agency.png" alt="Agência" class="project-img">
+            <div class="project-body">
+              <h3 class="project-title">Agência XPTO</h3>
+              <p class="project-desc">Carrossel animado e apresentação de serviços.</p>
+              <span class="project-tech">HTML • CSS • JS</span>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn">Demo</a>
+                <a href="#" target="_blank" class="btn-outline">Repositório</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contato">
+      <h2 class="contatos-titulo">Entre em contato</h2>
+
+      <form class="formulario-contato" id="formulario" onsubmit="enviarwhats(event)">
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome">
+
+        </div>
+
+        <div class="grupo-form">
+          <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"></textarea>
+
+        </div>
+        <button type="submit" class="botao-form">Enviar whatsapp</button>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    function enviarwhats(event) {
+      event.preventDefault()
+
+      const nome = document.getElementById('nome').value;
+      const mensagem = document.getElementById('mensagem').value;
+      const telefone = '5522997124607'
+
+
+      const texto = `Olá! Me chamo ${nome}, ${mensagem}`
+      const msgFormatada = encodeURIComponent(texto)
+      const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+      console.log(url)
+
+      window.open(url, '_blank')
+    }
+  </script>
+</body>
+
+</html>
